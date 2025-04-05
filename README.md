@@ -24,6 +24,9 @@ A sleek and responsive weather application built using React and TypeScript that
 
 ---
 
+<img width="547" alt="Screenshot 2025-04-06 at 3 44 20 AM" src="https://github.com/user-attachments/assets/a9d326a2-5f96-4178-9113-4a337f17525f" />
+
+
 ## 🧑‍💻 Getting Started
 
 ### Prerequisites

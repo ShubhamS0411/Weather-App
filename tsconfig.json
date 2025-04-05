@@ -1,0 +1,12 @@
+{
+  "files": [],
+  "references": [
+    { "path": "./tsconfig.app.json" },
+    { "path": "./tsconfig.node.json" }
+  ],
+  "resolve": {
+  "extensions": [".js", ".ts", ".jsx", ".tsx", ".json", ".svg"]
+},
+"types": ["@types/react"]
+}
+

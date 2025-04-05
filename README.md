@@ -1,50 +1,57 @@
-# React + TypeScript + Vite
+# 🌤️ Weather App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A sleek and responsive weather application built using React and TypeScript that fetches real-time weather information and a 5-day forecast for any city using the OpenWeatherMap API.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features
 
-## Expanding the ESLint configuration
+- 🌎 Search weather by city name
+- 📍 Get weather data for your current location
+- 📅 5-day forecast with temperature, humidity, and weather status
+- 🌗 Dynamic weather icons and UI styling
+- 📱 Fully responsive design for mobile and desktop
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+---
 
-- Configure the top-level `parserOptions` property like this:
+## 🛠️ Technologies Used
 
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+- [React](https://reactjs.org/)
+- [TypeScript](https://www.typescriptlang.org/)
+- [Vite](https://vitejs.dev/)
+- [Tailwind CSS](https://tailwindcss.com/)
+- [OpenWeatherMap API](https://openweathermap.org/api)
 
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
+---
 
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
+## 🧑‍💻 Getting Started
 
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
-```
+### Prerequisites
+
+Make sure you have the following installed:
+
+- Node.js
+- npm
+
+## 🙌 Contributing
+
+Contributions are welcome! Feel free to fork the repo and submit a pull request.
+
+1. Fork this repo
+2. Create a new branch: git checkout -b feature/your-feature
+3. Make your changes and commit: git commit -m "Add new feature"
+4. Push to your branch: git push origin feature/your-feature
+5. Submit a pull request
+
+## ✨ Future Improvements
+
+- Add hourly forecast
+- Theme toggle (dark/light mode)
+- Internationalization (multi-language support)
+- Weather-based background animations
+
+## 💡 Acknowledgements
+
+- OpenWeatherMap
+- React Icons
+- Inspiration from modern weather UIs
